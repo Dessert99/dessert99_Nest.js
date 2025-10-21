@@ -1,0 +1,35 @@
+# ── Node & 로그
+node_modules/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ── 빌드 산출물
+# 일반적으로 dist/는 빌드 결과이므로 버전관리 X (권장)
+dist/
+build/
+lib/
+
+# ── 툴 캐시
+.eslintcache
+/.cache/
+coverage/
+.nyc_output/
+
+# ── 환경변수 파일
+.env
+.env.*        # .env.local, .env.production 등
+!.env.example # 샘플은 남겨두기
+
+# ── 에디터/IDE
+.vscode/
+.idea/
+
+# ── OS 잡파일
+.DS_Store
+Thumbs.db
+node_modules
